@@ -1,15 +1,23 @@
 #include "card.h"
 #include <stdexcept>
+#include <iostream>
 
-class card
-{
-private:
-	char suit;
-	char val;
 
-public:
-	//Constructor 
-	card(char card_suit, char card_value)
+	card::card(char card_suit, char card_value)
+	{
+		setSuit(card_suit);
+		setVal(card_value);
+	}
+
+	//Constructor with integer card_value (cannot input A, J, Q, K)
+	card::card(char card_suit, int card_value)
+	{
+		setSuit(card_suit);
+		setVal(card_value);
+	}
+
+	//Sets the card's suit to the user's input if valid
+	void card::setSuit(char card_suit) 
 	{
 		switch (card_suit) {
 		case 'h':
@@ -34,6 +42,67 @@ public:
 		default:
 			throw std::invalid_argument("Invalid suit character");
 		}
-		//TO IMPLEMENT: Card Value switch case
 	}
-};
+
+	//Sets the card's value to the user's char input if valid
+	void card::setVal(char card_value) 
+	{
+		if (card_value > 49 && card_value < 57) //Range of 2-9 in ASCII
+		{
+			val = card_value;
+		}
+		else switch (card_value) {
+		case 't':
+		case 'T':
+			val = 'T';
+			break;
+		case 'j':
+		case 'J':
+			val = 'J';
+			break;
+		case 'q':
+		case 'Q':
+			val = 'Q';
+			break;
+		case 'k':
+		case 'K':
+			val = 'K';
+			break;
+		case 'a':
+		case 'A':
+			val = 'A';
+			break;
+		default:
+			throw std::invalid_argument("Invalid value character");
+		}
+	}
+
+	//Sets the card's value to the user's int input if valid
+	void card::setVal(int card_value)
+	{
+		if (card_value > 1 && card_value < 10) {
+			val = '0' + card_value;
+		}
+		else if (card_value == 10) {
+			val = 'T';
+		}
+		else throw std::invalid_argument("Invalid value integer");
+	}
+
+	//Returns the suit of the card
+	char card::getSuit()
+	{
+		return suit;
+	}
+
+	//Returns the value of the card (always char)
+	char card::getValue()
+	{
+		return val;
+	}
+
+	//Overloads << operator
+	std::ostream& operator<<(std::ostream& os, const card& c)
+	{
+		return os << c.suit << c.val;
+	}
