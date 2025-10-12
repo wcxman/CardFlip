@@ -1,6 +1,9 @@
 #include "card.h"
+#include "deck.h"
 #include <stdexcept>
 #include <iostream>
+#include <random>
+#include <ctime>
 using namespace std;
 
 //Main cpp file
@@ -9,14 +12,10 @@ using namespace std;
 
 int main() {
 	try {
-		card charCard = card('S', 'A');
-		card intCard = card('S', 10);
-		cout << charCard << " " << intCard;
-		charCard.setSuit('d');
-		intCard.setVal(2);
-		cout << endl << charCard << " " << intCard;
-		charCard.setVal(10);
-		intCard.setSuit('~');
+		Deck mydeck = Deck();
+		cout << mydeck;
+		mydeck.shuffle();
+		cout << mydeck;
 	}
 	catch (std::invalid_argument e) {
 		cout << e.what();

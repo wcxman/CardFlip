@@ -2,7 +2,7 @@
 #include <stdexcept>
 #include <iostream>
 
-
+	//Constructor, takes a character representing suit and value
 	card::card(char card_suit, char card_value)
 	{
 		setSuit(card_suit);
@@ -47,7 +47,7 @@
 	//Sets the card's value to the user's char input if valid
 	void card::setVal(char card_value) 
 	{
-		if (card_value > 49 && card_value < 57) //Range of 2-9 in ASCII
+		if (card_value > 49 && card_value < 58) //Range of 2-9 in ASCII
 		{
 			val = card_value;
 		}
