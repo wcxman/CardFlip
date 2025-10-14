@@ -15,7 +15,7 @@ int main() {
 		Deck mydeck = Deck();
 		cout << mydeck;
 		mydeck.shuffle();
-		cout << mydeck;
+		cout << endl << mydeck;
 	}
 	catch (std::invalid_argument e) {
 		cout << e.what();

@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{0E2DBCA5-3F25-441C-BA10-230AD84E45FA}|10-wuchenchr-2a\\10-wuchenchr-2a.vcxproj|solutionrelative:10-wuchenchr-2a\\card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0E2DBCA5-3F25-441C-BA10-230AD84E45FA}|10-wuchenchr-2a\\10-wuchenchr-2a.vcxproj|C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\deck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0E2DBCA5-3F25-441C-BA10-230AD84E45FA}|10-wuchenchr-2a\\10-wuchenchr-2a.vcxproj|solutionrelative:10-wuchenchr-2a\\deck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0E2DBCA5-3F25-441C-BA10-230AD84E45FA}|10-wuchenchr-2a\\10-wuchenchr-2a.vcxproj|C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0E2DBCA5-3F25-441C-BA10-230AD84E45FA}|10-wuchenchr-2a\\10-wuchenchr-2a.vcxproj|solutionrelative:10-wuchenchr-2a\\card.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E2DBCA5-3F25-441C-BA10-230AD84E45FA}|10-wuchenchr-2a\\10-wuchenchr-2a.vcxproj|C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{0E2DBCA5-3F25-441C-BA10-230AD84E45FA}|10-wuchenchr-2a\\10-wuchenchr-2a.vcxproj|solutionrelative:10-wuchenchr-2a\\deck.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E2DBCA5-3F25-441C-BA10-230AD84E45FA}|10-wuchenchr-2a\\10-wuchenchr-2a.vcxproj|C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\deck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0E2DBCA5-3F25-441C-BA10-230AD84E45FA}|10-wuchenchr-2a\\10-wuchenchr-2a.vcxproj|solutionrelative:10-wuchenchr-2a\\deck.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0E2DBCA5-3F25-441C-BA10-230AD84E45FA}|10-wuchenchr-2a\\10-wuchenchr-2a.vcxproj|C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -26,21 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\main.cpp",
-              "RelativeDocumentMoniker": "10-wuchenchr-2a\\main.cpp",
-              "ToolTip": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\main.cpp",
-              "RelativeToolTip": "10-wuchenchr-2a\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-12T19:35:56.587Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
@@ -49,7 +40,7 @@
               "RelativeDocumentMoniker": "10-wuchenchr-2a\\deck.h",
               "ToolTip": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\deck.h",
               "RelativeToolTip": "10-wuchenchr-2a\\deck.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-12T19:33:22.276Z",
               "EditorCaption": ""
@@ -57,14 +48,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "deck.cpp",
-              "DocumentMoniker": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\deck.cpp",
-              "RelativeDocumentMoniker": "10-wuchenchr-2a\\deck.cpp",
-              "ToolTip": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\deck.cpp",
-              "RelativeToolTip": "10-wuchenchr-2a\\deck.cpp",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-12T19:33:21.114Z",
+              "Title": "card.h",
+              "DocumentMoniker": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\card.h",
+              "RelativeDocumentMoniker": "10-wuchenchr-2a\\card.h",
+              "ToolTip": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\card.h",
+              "RelativeToolTip": "10-wuchenchr-2a\\card.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-10-14T21:39:55.279Z",
               "EditorCaption": ""
             },
             {
@@ -73,11 +64,37 @@
               "Title": "card.cpp",
               "DocumentMoniker": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\card.cpp",
               "RelativeDocumentMoniker": "10-wuchenchr-2a\\card.cpp",
-              "ToolTip": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\card.cpp*",
-              "RelativeToolTip": "10-wuchenchr-2a\\card.cpp*",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADMAAAAUAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\card.cpp",
+              "RelativeToolTip": "10-wuchenchr-2a\\card.cpp",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAGcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-10-12T19:33:59.971Z",
+              "WhenOpened": "2025-10-14T21:39:49.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "deck.cpp",
+              "DocumentMoniker": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\deck.cpp",
+              "RelativeDocumentMoniker": "10-wuchenchr-2a\\deck.cpp",
+              "ToolTip": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\deck.cpp",
+              "RelativeToolTip": "10-wuchenchr-2a\\deck.cpp",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAAAFgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-12T19:33:21.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\main.cpp",
+              "RelativeDocumentMoniker": "10-wuchenchr-2a\\main.cpp",
+              "ToolTip": "C:\\Users\\Capta\\OneDrive - Northeastern University\\Fall 25\\Engineering Algorithms\\10-wuchenchr-2a\\10-wuchenchr-2a\\main.cpp",
+              "RelativeToolTip": "10-wuchenchr-2a\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-10-14T21:39:01.803Z",
               "EditorCaption": ""
             }
           ]

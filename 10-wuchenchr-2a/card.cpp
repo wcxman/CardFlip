@@ -2,7 +2,7 @@
 #include <stdexcept>
 #include <iostream>
 
-	//Constructor, takes a character representing suit and value
+	//Constructor, takes characters representing suit and value
 	card::card(char card_suit, char card_value)
 	{
 		setSuit(card_suit);
