@@ -19,6 +19,9 @@ class card
 		//Constructor with integer card_value (cannot input A, J, Q, K)
 		card(char card_suit, int card_value);
 
+		//Copy Constructor
+		card(const card& toCopy);
+
 		//Sets the card's suit to the user's input if valid
 		void setSuit(char card_suit);
 
@@ -37,6 +40,8 @@ class card
 		//Overloads << operator, printing suit and then value
 		friend std::ostream& operator<<(std::ostream& os, const card& c);
 
+		//Overloads assignment operator
+		card& operator=(const card& c);
 };
 
 

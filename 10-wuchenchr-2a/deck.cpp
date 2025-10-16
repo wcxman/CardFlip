@@ -96,6 +96,16 @@ void Deck::shuffle()
 
 }
 
+//Removes the top node of the deck and returns it
+Deck::Node Deck::deal() 
+{
+	Node tor = *head; //Value to return is the head Node
+	Node* temp = head->next; //Stores the second from the top Node
+	delete head;
+	head = temp; //Sets the new head to what used to be second from the top
+	return tor;
+}
+
 // overload "<<" operator to print all the cards in the deck (13 cards per line)
 std::ostream& operator<<(std::ostream& os, const Deck& d) {
 	const Deck::Node* p = d.head;

@@ -39,6 +39,9 @@ public:
 		return head == nullptr;
 	}
 
+	//Removes the top node of the deck and returns it
+	Node deal();
+
 	// Overload the "<<" so we can print the entire deck easily
 	// Example: "cout << d;" instead of "d.printDeck();"
 	friend std::ostream& operator<<(std::ostream& os, const Deck& d);

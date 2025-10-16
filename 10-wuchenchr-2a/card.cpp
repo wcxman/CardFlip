@@ -16,6 +16,13 @@
 		setVal(card_value);
 	}
 
+	//Copy Constructor
+	card::card(const card& copied)
+	{
+		suit = copied.suit;
+		val = copied.val;
+	}
+
 	//Sets the card's suit to the user's input if valid
 	void card::setSuit(char card_suit) 
 	{
@@ -105,4 +112,15 @@
 	std::ostream& operator<<(std::ostream& os, const card& c)
 	{
 		return os << c.suit << c.val;
+	}
+
+	//Overloads assignment operator
+	card& card::operator=(const card& c)
+	{
+		if (this != &c) {
+			suit = c.suit;
+			val = c.val;
+			return *this;
+		}
+		
 	}
